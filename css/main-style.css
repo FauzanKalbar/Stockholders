@@ -1,0 +1,151 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.placeHolder{
+	border:2px solid #ccc;
+	border-radius:3px;
+	float:left;
+}
+
+.placeHolder *{
+	float:left;
+}
+
+
+#top-part-wrap{
+	width:100%;
+	height:50px;
+	position:fixed;
+	background:#00D072;
+	z-index:10;
+}
+
+#login{
+	float:right;
+	width:450px;
+}
+
+#logo{
+	float:left;
+}
+#logo img{
+	margin:0px auto 0px 0px;
+}
+
+#login form{
+	line-height:50px;	
+}
+
+#side-wrap{
+	color:#FFFFFF;
+	margin-top:50px;
+	background:#2D2D2D;
+	position:fixed;
+	height:100%;
+	width:18%;
+}
+#page-title-bar{
+	font-weight:bold;
+	line-height:40px;
+	text-indent:10px;
+	font-size:18px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-top:50px;
+	margin-left:18%;
+	float:left;
+	position:fixed;
+	background:#F1F1F1;
+	width:82%;
+	height:40px;
+	border-bottom:thin solid #E1E1E1;
+}
+
+#use-profile{
+	padding:5%;
+	width:90%;
+	height:170px;
+}
+#use-profile p{
+	font-size:16px;
+	vertical-align:central;
+	text-align:center;
+}
+
+section{
+	margin:110px 12% 30px 20%;
+	float:left;
+	border:thin solid #E1E1E1;
+	width:78%;
+	min-height:250px;
+	background:#F1F1F1;
+}
+header{
+	font-size:14px;
+	width:100%;
+	background:#2D2D2D;
+	height:40px;
+	line-height:40px;
+	color:#E3E3E3;
+	text-indent:10px;
+}
+
+
+article p{
+	padding:10px 20px;
+}
+
+.record-table{
+	font-size:14px;
+}
+
+.record-table thead{
+	
+}
+.record-table th{
+	background:#D1D1D1;
+	border-bottom:thin solid #000000;	
+	border-left:thin solid #000000;
+}
+.record-table thead th:first-child{
+	border-left:none;	
+}
+.record-table td{
+	border-left:thin solid #000000;
+	border-bottom:thin solid #000;
+}
+
+.record-table tr:last-child{
+	border-bottom:none;
+}
+
+.record-table tr td:first-child{
+	border-left:none;
+}
+
+.record-table tr:nth-child(even){
+	background:#E3E3E3;
+}
+.record-table tr:last-child{
+	background:#fff;
+}
+.record-table{
+	border:thin solid #000000;
+}
+/*Color set Here*/
+.record-table tr:hover{
+	cursor:pointer;
+	background:#00D072;
+}
+.record-table tr:last-child:hover{
+	background:#fff;
+}
+
+#tool-box{
+	float:right;
+	margin-right:20px;
+}
+#tool-box img{
+	cursor:pointer;
+	vertical-align:middle;
+}

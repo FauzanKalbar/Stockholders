@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+		.watermark {
+			color: #999 !important;
+		}
+		.watermark2 {
+			color: #999 !important;
+			font-style: italic !important;
+		}
+		.watermark3 {
+			color: #c77 !important;
+		}

@@ -1,0 +1,19 @@
+<?php
+DEFINE ('DBUSER', 'root');
+DEFINE ('DBPW', '');
+DEFINE ('DBHOST', 'localhost');
+DEFINE ('DBNAME', 'stockholders');
+
+class gavsClass{
+	public $mysql;
+	public function __construct(){
+		$this->mysql = new mysqli(DBHOST,DBUSER,DBPW, DBNAME);
+		mysqli_report(MYSQLI_REPORT_ERROR);
+	}
+	
+	
+	public function secure($val){
+	$secure_string = $this->mysql->real_escape_string(strip_tags(stripslashes($val)));
+	return $secure_string;
+	}
+}
